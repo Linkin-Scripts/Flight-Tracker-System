@@ -15,6 +15,6 @@ public partial class MainWindowViewModel : ViewModelBase
 
         routeVisualisationViewModel = new(data.Airports, data.Flights);
         flightInfoViewModel = new();
-        analyticsViewModel = new();
+        analyticsViewModel = new(data.Flights, data.Airports);
     }
 }
