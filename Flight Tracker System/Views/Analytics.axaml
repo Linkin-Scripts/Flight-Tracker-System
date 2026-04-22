@@ -1,35 +1,37 @@
 <UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:lvc="using:LiveChartsCore.SkiaSharpView.Avalonia"
              xmlns:vm="using:Flight_Tracker_System.ViewModels"
+             xmlns:lvc="using:LiveChartsCore.SkiaSharpView.Avalonia"
              x:Class="Flight_Tracker_System.Views.Analytics"
              x:DataType="vm:AnalyticsViewModel">
+
     <ScrollViewer>
-        <StackPanel Spacing="30" Margin="20">
-            <!-- Top Airlines -->
-            <StackPanel>
-                <TextBlock Text="Top Airlines by Traffic"
-                           FontSize="20"
-                           FontWeight="Bold"/>
-                <lvc:CartesianChart
-                    Series="{Binding AirlineSeries}" />
-            </StackPanel>
-            <!-- Busiest Routes -->
-            <StackPanel>
-                <TextBlock Text="Busiest Routes"
-                           FontSize="20"
-                           FontWeight="Bold"/>
-                <lvc:CartesianChart
-                    Series="{Binding RouteSeries}" />
-            </StackPanel>
-            <!-- Flights per Day -->
-            <StackPanel>
-                <TextBlock Text="Flights per Day"
-                           FontSize="20"
-                           FontWeight="Bold"/>
-                <lvc:CartesianChart
-                    Series="{Binding FlightsPerDaySeries}" />
-            </StackPanel>
+        <StackPanel Margin="20" Spacing="40">
+
+            <TextBlock Text="Top Airlines" FontSize="18"/>
+
+            <lvc:CartesianChart Series="{Binding AirlineSeries}">
+                <lvc:CartesianChart.XAxes>
+                    <lvc:Axis Labels="{Binding AirlineLabels}" />
+                </lvc:CartesianChart.XAxes>
+            </lvc:CartesianChart>
+
+            <TextBlock Text="Busiest Routes" FontSize="18"/>
+
+            <lvc:CartesianChart Series="{Binding RouteSeries}">
+                <lvc:CartesianChart.XAxes>
+                    <lvc:Axis Labels="{Binding RouteLabels}" />
+                </lvc:CartesianChart.XAxes>
+            </lvc:CartesianChart>
+
+            <TextBlock Text="Flights Per Day" FontSize="18"/>
+
+            <lvc:CartesianChart Series="{Binding FlightsPerDaySeries}">
+                <lvc:CartesianChart.XAxes>
+                    <lvc:Axis Labels="{Binding DayLabels}" />
+                </lvc:CartesianChart.XAxes>
+            </lvc:CartesianChart>
+
         </StackPanel>
     </ScrollViewer>
-</UserControl>
+</UserControl> 

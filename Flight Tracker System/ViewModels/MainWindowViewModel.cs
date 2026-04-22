@@ -1,20 +1,34 @@
-using Flight_Tracker_System.Data;
+using System.Collections.Generic;
+using System.IO;
+using System.Text.Json;
 using Flight_Tracker_System.Models;
 
 namespace Flight_Tracker_System.ViewModels;
 
-public partial class MainWindowViewModel : ViewModelBase
+public class MainWindowViewModel : ViewModelBase
 {
-    public RouteVisualisationViewModel routeVisualisationViewModel { get; }
-    public FlightInfoViewModel flightInfoViewModel { get; }
-    public AnalyticsViewModel analyticsViewModel { get; }
+    public List<Flight> Flights { get; set; }
+    public List<Airport> Airports { get; set; }
+
+    public AnalyticsViewModel AnalyticsVM { get; set; }
 
     public MainWindowViewModel()
     {
-        FlightData data = JsonParser.Deserialise<FlightData>();
+        Flights = LoadFlights();
+        Airports = LoadAirports();
 
-        routeVisualisationViewModel = new(data.Airports, data.Flights);
-        flightInfoViewModel = new();
-        analyticsViewModel = new(data.Flights, data.Airports);
+        AnalyticsVM = new AnalyticsViewModel(Flights, Airports);
+    }
+
+    private List<Flight> LoadFlights()
+    {
+        var json = File.ReadAllText("flights.json");
+        return JsonSerializer.Deserialize<List<Flight>>(json) ?? new List<Flight>();
+    }
+
+    private List<Airport> LoadAirports()
+    {
+        var json = File.ReadAllText("airports.json");
+        return JsonSerializer.Deserialize<List<Airport>>(json) ?? new List<Airport>();
     }
 }
