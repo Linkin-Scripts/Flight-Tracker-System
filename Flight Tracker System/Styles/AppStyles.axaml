@@ -1,0 +1,74 @@
+<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <Styles.Resources>
+        <SolidColorBrush x:Key="AppBackgroundBrush"     Color="#0D1117"/>
+        <SolidColorBrush x:Key="SurfaceBackgroundBrush" Color="#161B22"/>
+        <SolidColorBrush x:Key="CardBackgroundBrush"    Color="#1C2128"/>
+        <SolidColorBrush x:Key="AccentBlueBrush"        Color="#1F6FEB"/>
+        <SolidColorBrush x:Key="AccentBlueBrightBrush"  Color="#388BFD"/>
+        <SolidColorBrush x:Key="PrimaryTextBrush"       Color="#E6EDF3"/>
+        <SolidColorBrush x:Key="SecondaryTextBrush"     Color="#8B949E"/>
+        <SolidColorBrush x:Key="BorderBrush"            Color="#30363D"/>
+    </Styles.Resources>
+
+    <Style Selector="Window">
+        <Setter Property="Background" Value="{StaticResource AppBackgroundBrush}"/>
+    </Style>
+
+    <Style Selector="TextBlock">
+        <Setter Property="Foreground" Value="{StaticResource PrimaryTextBrush}"/>
+    </Style>
+
+    <Style Selector="TabControl">
+        <Setter Property="Background" Value="{StaticResource SurfaceBackgroundBrush}"/>
+        <Setter Property="BorderThickness" Value="0"/>
+    </Style>
+
+    <Style Selector="TabItem">
+        <Setter Property="Foreground" Value="{StaticResource SecondaryTextBrush}"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="Padding" Value="16 10"/>
+    </Style>
+
+    <Style Selector="TabItem:selected">
+        <Setter Property="Foreground" Value="{StaticResource AccentBlueBrightBrush}"/>
+    </Style>
+
+    <Style Selector="Button">
+        <Setter Property="Background" Value="{StaticResource AccentBlueBrush}"/>
+        <Setter Property="Foreground" Value="{StaticResource PrimaryTextBrush}"/>
+        <Setter Property="CornerRadius" Value="6"/>
+        <Setter Property="Padding" Value="12 6"/>
+        <Setter Property="BorderThickness" Value="0"/>
+    </Style>
+
+    <Style Selector="Button:pointerover /template/ ContentPresenter">
+        <Setter Property="Background" Value="{StaticResource AccentBlueBrightBrush}"/>
+    </Style>
+
+    <Style Selector="TextBox">
+        <Setter Property="Background" Value="{StaticResource CardBackgroundBrush}"/>
+        <Setter Property="Foreground" Value="{StaticResource PrimaryTextBrush}"/>
+        <Setter Property="BorderBrush" Value="{StaticResource BorderBrush}"/>
+        <Setter Property="CornerRadius" Value="6"/>
+        <Setter Property="Padding" Value="8 6"/>
+    </Style>
+
+    <Style Selector="ComboBox">
+        <Setter Property="Background" Value="{StaticResource CardBackgroundBrush}"/>
+        <Setter Property="Foreground" Value="{StaticResource PrimaryTextBrush}"/>
+        <Setter Property="BorderBrush" Value="{StaticResource BorderBrush}"/>
+        <Setter Property="CornerRadius" Value="6"/>
+    </Style>
+
+    <Style Selector="ListBox">
+        <Setter Property="Background" Value="{StaticResource CardBackgroundBrush}"/>
+        <Setter Property="BorderBrush" Value="{StaticResource BorderBrush}"/>
+    </Style>
+
+    <Style Selector="ListBoxItem:selected /template/ ContentPresenter">
+        <Setter Property="Background" Value="{StaticResource AccentBlueBrush}"/>
+    </Style>
+
+</Styles>
