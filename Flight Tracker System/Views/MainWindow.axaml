@@ -11,15 +11,26 @@
         Title="Flight_Tracker_System">
 
     <Design.DataContext>
-        <!-- This only sets the DataContext for the previewer in an IDE,
-             to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
         <vm:MainWindowViewModel/>
     </Design.DataContext>
 
+    <Grid RowDefinitions="Auto,*">
+        <!-- Navigation bar -->
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Spacing="8" Margin="20,12,20,4">
+            <Button Content="&#8592;" Command="{Binding GoBackCommand}"
+                    IsEnabled="{Binding CanGoBack}"
+                    ToolTip.Tip="Go back"
+                    Width="36" Height="36" FontSize="16"/>
+            <Button Content="&#8594;" Command="{Binding GoForwardCommand}"
+                    IsEnabled="{Binding CanGoForward}"
+                    ToolTip.Tip="Go forward"
+                    Width="36" Height="36" FontSize="16"/>
+        </StackPanel>
+
         <ScrollViewer Grid.Row="1" Padding="20" HorizontalScrollBarVisibility="Auto" VerticalScrollBarVisibility="Auto">
             <Border Background="{StaticResource SurfaceBackgroundBrush}" CornerRadius="14" Padding="20">
-                <TabControl>
-                    <TabItem Header="Route Visualisation">                                                                                                                                                                                                            
+                <TabControl SelectedIndex="{Binding SelectedTabIndex}">
+                    <TabItem Header="Route Visualisation">
                         <views:RouteVisualisation DataContext="{Binding RouteVisualisationVM}"/>
                     </TabItem>
                     <TabItem Header="Flight Info">
@@ -31,4 +42,5 @@
                 </TabControl>
             </Border>
         </ScrollViewer>
+    </Grid>
 </Window>
