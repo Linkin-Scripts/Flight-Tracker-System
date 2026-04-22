@@ -9,29 +9,14 @@
         <StackPanel Margin="20" Spacing="40">
 
             <TextBlock Text="Top Airlines" FontSize="18"/>
-
-            <lvc:CartesianChart Series="{Binding AirlineSeries}">
-                <lvc:CartesianChart.XAxes>
-                    <lvc:Axis Labels="{Binding AirlineLabels}" />
-                </lvc:CartesianChart.XAxes>
-            </lvc:CartesianChart>
+            <lvc:CartesianChart Series="{Binding AirlineSeries}" XAxes="{Binding AirlineXAxes}" Height="250"/>
 
             <TextBlock Text="Busiest Routes" FontSize="18"/>
-
-            <lvc:CartesianChart Series="{Binding RouteSeries}">
-                <lvc:CartesianChart.XAxes>
-                    <lvc:Axis Labels="{Binding RouteLabels}" />
-                </lvc:CartesianChart.XAxes>
-            </lvc:CartesianChart>
+            <lvc:CartesianChart Series="{Binding RouteSeries}" XAxes="{Binding RouteXAxes}" Height="250"/>
 
             <TextBlock Text="Flights Per Day" FontSize="18"/>
-
-            <lvc:CartesianChart Series="{Binding FlightsPerDaySeries}">
-                <lvc:CartesianChart.XAxes>
-                    <lvc:Axis Labels="{Binding DayLabels}" />
-                </lvc:CartesianChart.XAxes>
-            </lvc:CartesianChart>
+            <lvc:CartesianChart Series="{Binding FlightsPerDaySeries}" XAxes="{Binding DayXAxes}" Height="250"/>
 
         </StackPanel>
     </ScrollViewer>
-</UserControl> 
+</UserControl>

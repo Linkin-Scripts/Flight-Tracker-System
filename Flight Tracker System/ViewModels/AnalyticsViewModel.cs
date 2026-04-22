@@ -20,11 +20,11 @@ public class AnalyticsViewModel : ViewModelBase
         set => SetProperty(ref _airlineSeries, value);
     }
 
-    private string[] _airlineLabels = [];
-    public string[] AirlineLabels
+    private IList<Axis> _airlineXAxes = [new Axis()];
+    public IList<Axis> AirlineXAxes
     {
-        get => _airlineLabels;
-        set => SetProperty(ref _airlineLabels, value);
+        get => _airlineXAxes;
+        set => SetProperty(ref _airlineXAxes, value);
     }
 
     // Chart 2
@@ -35,11 +35,11 @@ public class AnalyticsViewModel : ViewModelBase
         set => SetProperty(ref _routeSeries, value);
     }
 
-    private string[] _routeLabels = [];
-    public string[] RouteLabels
+    private IList<Axis> _routeXAxes = [new Axis()];
+    public IList<Axis> RouteXAxes
     {
-        get => _routeLabels;
-        set => SetProperty(ref _routeLabels, value);
+        get => _routeXAxes;
+        set => SetProperty(ref _routeXAxes, value);
     }
 
     // Chart 3
@@ -50,11 +50,11 @@ public class AnalyticsViewModel : ViewModelBase
         set => SetProperty(ref _flightsPerDaySeries, value);
     }
 
-    private string[] _dayLabels = [];
-    public string[] DayLabels
+    private IList<Axis> _dayXAxes = [new Axis()];
+    public IList<Axis> DayXAxes
     {
-        get => _dayLabels;
-        set => SetProperty(ref _dayLabels, value);
+        get => _dayXAxes;
+        set => SetProperty(ref _dayXAxes, value);
     }
 
     public AnalyticsViewModel(List<Flight> flights, List<Airport> airports)
@@ -82,7 +82,7 @@ public class AnalyticsViewModel : ViewModelBase
             .Take(5)
             .ToList();
 
-        AirlineLabels = result.Select(x => x.Airline).ToArray();
+        AirlineXAxes = [new Axis { Labels = result.Select(x => x.Airline).ToArray() }];
 
         AirlineSeries = new ISeries[]
         {
@@ -103,7 +103,7 @@ public class AnalyticsViewModel : ViewModelBase
             .Take(5)
             .ToList();
 
-        RouteLabels = result.Select(x => x.Route).ToArray();
+        RouteXAxes = [new Axis { Labels = result.Select(x => x.Route).ToArray() }];
 
         RouteSeries = new ISeries[]
         {
@@ -123,7 +123,7 @@ public class AnalyticsViewModel : ViewModelBase
             .OrderBy(x => x.Date)
             .ToList();
 
-        DayLabels = result.Select(x => x.Date.ToShortDateString()).ToArray();
+        DayXAxes = [new Axis { Labels = result.Select(x => x.Date.ToShortDateString()).ToArray() }];
 
         FlightsPerDaySeries = new ISeries[]
         {

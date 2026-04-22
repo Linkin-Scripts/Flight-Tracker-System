@@ -50,11 +50,8 @@ public partial class RouteVisualisation : UserControl
 
         var existing = map.Layers.FirstOrDefault(l => l.Name == "Routes");
         if (existing != null) map.Layers.Remove(existing);
-        if(origin.Name == "null" && destinations.Count == 0)
-        {
-            map.Layers.Remove(existing);   
+        if (origin.Name == "null" && destinations.Count == 0)
             return;
-        }
 
 
         // The coordinates in flights.json are regular GPS longitude/latitude (WGS84). 

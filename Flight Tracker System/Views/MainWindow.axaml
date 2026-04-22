@@ -20,13 +20,13 @@
             <Border Background="{StaticResource SurfaceBackgroundBrush}" CornerRadius="14" Padding="20">
                 <TabControl>
                     <TabItem Header="Route Visualisation">                                                                                                                                                                                                            
-                        <views:RouteVisualisation DataContext="{Binding routeVisualisationViewModel}"/>
-                    </TabItem>                                                                                                                                                                                                                              
-                    <TabItem Header="Flight Info">
-                        <views:FlightInfo DataContext="{Binding flightInfoViewModel}"/>                                                                                                                                                                         
+                        <views:RouteVisualisation DataContext="{Binding RouteVisualisationVM}"/>
                     </TabItem>
-                    <TabItem Header="Analytics">                                                                                                                                                                                                                
-                        <views:Analytics DataContext="{Binding analyticsViewModel}"/>
+                    <TabItem Header="Flight Info">
+                        <views:FlightInfo DataContext="{Binding FlightInfoVM}"/>
+                    </TabItem>
+                    <TabItem Header="Analytics">
+                        <views:Analytics DataContext="{Binding AnalyticsVM}"/>
                     </TabItem>
                 </TabControl>
             </Border>
