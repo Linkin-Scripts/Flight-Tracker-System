@@ -97,3 +97,4 @@
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/linux-riscv64/native/libSkiaSharp.so
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/linux-x86/native/libSkiaSharp.so
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Mapsui.UI.Avalonia.dll
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Data/flights.json

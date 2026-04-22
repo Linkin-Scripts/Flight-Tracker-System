@@ -2,12 +2,32 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:lvc="using:LiveChartsCore.SkiaSharpView.Avalonia"
-        xmlns:viewModels="clr-namespace:Flight_Tracker_System.ViewModels"
         xmlns:mapsui="clr-namespace:Mapsui.UI.Avalonia;assembly=Mapsui.UI.Avalonia"
         mc:Ignorable="d" d:DesignWidth="1000" d:DesignHeight="700"
         x:Class="Flight_Tracker_System.Views.RouteVisualisation"
         x:CompileBindings="False">
 
-        <mapsui:MapControl x:Name="MyMapControl"/>
+    <Grid RowDefinitions="Auto,*">
+
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="8" Spacing="8">
+            <TextBox Width="220"
+                     Text="{Binding SearchText}"
+                     Watermark="Search by name, city or IATA..."/>
+            <ComboBox Width="280"
+                      ItemsSource="{Binding FilteredAirports}"
+                      SelectedItem="{Binding SelectedAirport}"
+                      PlaceholderText="Select an airport...">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Name}"/>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+            <Button Content="Clear"
+                    Command="{Binding ClearSelectionCommand}"/>
+        </StackPanel>
+        <mapsui:MapControl Grid.Row="1" x:Name="MyMapControl"/>
+
+    </Grid>
+
 </UserControl>

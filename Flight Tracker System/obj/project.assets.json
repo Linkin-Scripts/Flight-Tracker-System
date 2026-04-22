@@ -1956,7 +1956,8 @@
       "Avalonia.Fonts.Inter >= 11.3.12",
       "Avalonia.Themes.Fluent >= 11.3.12",
       "CommunityToolkit.Mvvm >= 8.2.1",
-      "Mapsui.Avalonia >= 5.0.2"
+      "Mapsui.Avalonia >= 5.0.2",
+      "Mapsui.Nts >= 5.0.2"
     ]
   },
   "packageFolders": {
@@ -2028,6 +2029,10 @@
             "version": "[8.2.1, )"
           },
           "Mapsui.Avalonia": {
+            "target": "Package",
+            "version": "[5.0.2, )"
+          },
+          "Mapsui.Nts": {
             "target": "Package",
             "version": "[5.0.2, )"
           }
