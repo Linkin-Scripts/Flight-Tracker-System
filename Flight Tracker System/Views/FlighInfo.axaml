@@ -2,12 +2,94 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:lvc="using:LiveChartsCore.SkiaSharpView.Avalonia"
-        xmlns:viewModels="clr-namespace:Flight_Tracker_System.ViewModels"
         mc:Ignorable="d" d:DesignWidth="1000" d:DesignHeight="700"
         x:Class="Flight_Tracker_System.Views.FlightInfo"
         x:CompileBindings="False">
+        <Grid RowDefinitions="Auto,Auto,*" RowSpacing="16">
+                <Border Background="{StaticResource SurfaceBackgroundBrush}" CornerRadius="18" Padding="24">
+                        <StackPanel Spacing="8">
+                                <TextBlock Text="Airport Flight Info" FontSize="30" FontWeight="SemiBold" />
+                                <TextBlock Text="Select an airport, then narrow the list by status to inspect the flight details that matter most." Foreground="{StaticResource SecondaryTextBrush}" TextWrapping="Wrap" />
+                        </StackPanel>
+                </Border>
 
+                <Grid Grid.Row="1" ColumnDefinitions="2*,1*" ColumnSpacing="16">
+                        <Border Background="{StaticResource CardBackgroundBrush}" CornerRadius="16" Padding="18" BorderBrush="{StaticResource BorderBrush}" BorderThickness="1">
+                                <StackPanel Spacing="12">
+                                        <TextBlock Text="Airport" FontSize="16" FontWeight="SemiBold" />
+                                        <ComboBox ItemsSource="{Binding Airports}"
+                                                          SelectedItem="{Binding SelectedAirport, Mode=TwoWay}">
+                                                <ComboBox.ItemTemplate>
+                                                        <DataTemplate>
+                                                                <TextBlock Text="{Binding Name}" />
+                                                        </DataTemplate>
+                                                </ComboBox.ItemTemplate>
+                                        </ComboBox>
 
+                                        <Border Background="{StaticResource SurfaceBackgroundBrush}" CornerRadius="12" Padding="14">
+                                                <StackPanel Spacing="4">
+                                                        <TextBlock Text="Selected airport" FontSize="12" Foreground="{StaticResource SecondaryTextBrush}" />
+                                                        <TextBlock Text="{Binding SelectedAirport.Name}" FontSize="18" FontWeight="SemiBold" />
+                                                        <TextBlock Text="{Binding SelectedAirport.IataCode, StringFormat='Code: {0}'}" Foreground="{StaticResource SecondaryTextBrush}" />
+                                                        <TextBlock Text="{Binding SelectedAirport.City, StringFormat='City: {0}'}" Foreground="{StaticResource SecondaryTextBrush}" />
+                                                        <TextBlock Text="{Binding SelectedAirport.Country, StringFormat='Country: {0}'}" Foreground="{StaticResource SecondaryTextBrush}" />
+                                                </StackPanel>
+                                        </Border>
+                                </StackPanel>
+                        </Border>
 
+                        <Border Grid.Column="1" Background="{StaticResource CardBackgroundBrush}" CornerRadius="16" Padding="18" BorderBrush="{StaticResource BorderBrush}" BorderThickness="1">
+                                <StackPanel Spacing="12">
+                                        <TextBlock Text="Status filter" FontSize="16" FontWeight="SemiBold" />
+                                        <ComboBox ItemsSource="{Binding StatusOptions}"
+                                                          SelectedItem="{Binding SelectedStatus, Mode=TwoWay}" />
+
+                                        <Border Background="{StaticResource SurfaceBackgroundBrush}" CornerRadius="12" Padding="14">
+                                                <StackPanel Spacing="4">
+                                                        <TextBlock Text="Matching flights" FontSize="12" Foreground="{StaticResource SecondaryTextBrush}" />
+                                                        <TextBlock Text="{Binding MatchingFlightCount}" FontSize="26" FontWeight="SemiBold" />
+                                                        <TextBlock Text="Departures from the selected airport that match the current status filter." TextWrapping="Wrap" Foreground="{StaticResource SecondaryTextBrush}" />
+                                                </StackPanel>
+                                        </Border>
+                                </StackPanel>
+                        </Border>
+                </Grid>
+
+                <Border Grid.Row="2" Background="{StaticResource CardBackgroundBrush}" CornerRadius="16" Padding="18" BorderBrush="{StaticResource BorderBrush}" BorderThickness="1">
+                        <Grid RowDefinitions="Auto,*" RowSpacing="12">
+                                <TextBlock Text="Flight list" FontSize="16" FontWeight="SemiBold" />
+
+                                <Grid Grid.Row="1">
+                                        <ScrollViewer IsVisible="{Binding HasMatchingFlights}">
+                                                <ItemsControl ItemsSource="{Binding FilteredFlights}">
+                                                        <ItemsControl.ItemTemplate>
+                                                                <DataTemplate>
+                                                                        <Border Background="{StaticResource SurfaceBackgroundBrush}" CornerRadius="14" Padding="16" Margin="0,0,0,12" BorderBrush="{StaticResource BorderBrush}" BorderThickness="1">
+                                                                                <Grid ColumnDefinitions="1.2*,1*,1*,1*,Auto" RowDefinitions="Auto,Auto" ColumnSpacing="16" RowSpacing="6">
+                                                                                        <TextBlock Text="{Binding FlightNumber}" FontSize="18" FontWeight="SemiBold" />
+                                                                                        <TextBlock Grid.Column="1" Text="{Binding ArrivalAirport, StringFormat='Destination: {0}'}" Foreground="{StaticResource SecondaryTextBrush}" />
+                                                                                        <TextBlock Grid.Column="2" Text="{Binding ScheduledDeparture, StringFormat='Departure: {0:dd MMM yyyy HH:mm}'}" Foreground="{StaticResource SecondaryTextBrush}" />
+                                                                                        <TextBlock Grid.Column="3" Text="{Binding AircraftType, StringFormat='Aircraft: {0}'}" Foreground="{StaticResource SecondaryTextBrush}" />
+                                                                                        <Border Grid.Column="4" Background="{StaticResource AccentBlueBrush}" CornerRadius="999" Padding="12 6" VerticalAlignment="Top">
+                                                                                                <TextBlock Text="{Binding Status}" FontWeight="SemiBold" />
+                                                                                        </Border>
+
+                                                                                        <TextBlock Grid.Row="1" Grid.ColumnSpan="5" Text="{Binding AirlineName, StringFormat='Airline: {0}'}" Foreground="{StaticResource SecondaryTextBrush}" />
+                                                                                </Grid>
+                                                                        </Border>
+                                                                </DataTemplate>
+                                                        </ItemsControl.ItemTemplate>
+                                                </ItemsControl>
+                                        </ScrollViewer>
+
+                                        <Border IsVisible="{Binding HasNoMatchingFlights}" Background="{StaticResource SurfaceBackgroundBrush}" CornerRadius="14" Padding="22">
+                                                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Spacing="6">
+                                                        <TextBlock Text="No flights match the current selection." FontSize="18" FontWeight="SemiBold" HorizontalAlignment="Center" />
+                                                        <TextBlock Text="Choose another airport or status to reveal flights." Foreground="{StaticResource SecondaryTextBrush}" HorizontalAlignment="Center" />
+                                                </StackPanel>
+                                        </Border>
+                                </Grid>
+                        </Grid>
+                </Border>
+        </Grid>
 </UserControl>
