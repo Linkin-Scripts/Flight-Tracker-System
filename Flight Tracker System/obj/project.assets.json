@@ -1960,25 +1960,31 @@
     ]
   },
   "packageFolders": {
-    "/home/danielmorgsilva/.nuget/packages/": {}
+    "C:\\Users\\asent\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/Flight Tracker System.csproj",
+      "projectUniqueName": "C:\\Users\\asent\\Documents\\Git\\test\\Flight-Tracker-System\\Flight Tracker System\\Flight Tracker System.csproj",
       "projectName": "Flight Tracker System",
-      "projectPath": "/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/Flight Tracker System.csproj",
-      "packagesPath": "/home/danielmorgsilva/.nuget/packages/",
-      "outputPath": "/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/obj/",
+      "projectPath": "C:\\Users\\asent\\Documents\\Git\\test\\Flight-Tracker-System\\Flight Tracker System\\Flight Tracker System.csproj",
+      "packagesPath": "C:\\Users\\asent\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\asent\\Documents\\Git\\test\\Flight-Tracker-System\\Flight Tracker System\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/home/danielmorgsilva/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\asent\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
-        "/usr/lib64/dotnet/library-packs": {},
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2048,7 +2054,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/10.0.104/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",
