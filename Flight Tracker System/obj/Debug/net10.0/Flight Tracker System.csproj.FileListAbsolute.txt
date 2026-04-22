@@ -27,11 +27,28 @@
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Avalonia.Win32.Automation.dll
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Avalonia.Win32.dll
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Avalonia.X11.dll
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/BruTile.XmlSerializers.dll
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/BruTile.dll
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/CommunityToolkit.Mvvm.dll
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/ExCSS.dll
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/HarfBuzzSharp.dll
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Mapsui.dll
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Mapsui.UI.Avalonia.dll
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Mapsui.Nts.dll
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Mapsui.Rendering.Skia.dll
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Mapsui.Tiling.dll
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/MicroCom.Runtime.dll
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/NetTopologySuite.dll
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/NetTopologySuite.Features.dll
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/NetTopologySuite.IO.GeoJSON4STJ.dll
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/ShimSkiaSharp.dll
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/SkiaSharp.dll
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/SkiaSharp.HarfBuzz.dll
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Svg.Custom.dll
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Svg.Model.dll
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Svg.Skia.dll
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Tmds.DBus.Protocol.dll
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Topten.RichTextKit.dll
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/win-arm64/native/av_libglesv2.dll
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/win-x64/native/av_libglesv2.dll
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/win-x86/native/av_libglesv2.dll
@@ -53,8 +70,15 @@
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/win-x86/native/libHarfBuzzSharp.dll
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/linux-arm/native/libSkiaSharp.so
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/linux-arm64/native/libSkiaSharp.so
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/linux-loongarch64/native/libSkiaSharp.so
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/linux-musl-arm/native/libSkiaSharp.so
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/linux-musl-arm64/native/libSkiaSharp.so
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/linux-musl-loongarch64/native/libSkiaSharp.so
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/linux-musl-riscv64/native/libSkiaSharp.so
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/linux-musl-x64/native/libSkiaSharp.so
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/linux-riscv64/native/libSkiaSharp.so
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/linux-x64/native/libSkiaSharp.so
+/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/linux-x86/native/libSkiaSharp.so
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/osx/native/libSkiaSharp.dylib
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/win-arm64/native/libSkiaSharp.dll
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/win-x64/native/libSkiaSharp.dll
@@ -73,126 +97,3 @@
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/obj/Debug/net10.0/Flight Tracker System.pdb
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/obj/Debug/net10.0/Flight Tracker System.genruntimeconfig.cache
 /home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/obj/Debug/net10.0/ref/Flight Tracker System.dll
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/BruTile.XmlSerializers.dll
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/BruTile.dll
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/ExCSS.dll
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Mapsui.dll
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Mapsui.Nts.dll
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Mapsui.Rendering.Skia.dll
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Mapsui.Tiling.dll
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/NetTopologySuite.dll
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/NetTopologySuite.Features.dll
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/NetTopologySuite.IO.GeoJSON4STJ.dll
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/ShimSkiaSharp.dll
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/SkiaSharp.HarfBuzz.dll
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Svg.Custom.dll
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Svg.Model.dll
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Svg.Skia.dll
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Topten.RichTextKit.dll
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/linux-loongarch64/native/libSkiaSharp.so
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/linux-musl-arm/native/libSkiaSharp.so
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/linux-musl-arm64/native/libSkiaSharp.so
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/linux-musl-loongarch64/native/libSkiaSharp.so
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/linux-musl-riscv64/native/libSkiaSharp.so
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/linux-riscv64/native/libSkiaSharp.so
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/runtimes/linux-x86/native/libSkiaSharp.so
-/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/bin/Debug/net10.0/Mapsui.UI.Avalonia.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Flight Tracker System.exe
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Flight Tracker System.deps.json
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Flight Tracker System.runtimeconfig.json
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Flight Tracker System.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Flight Tracker System.pdb
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.Base.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.Controls.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.DesignerSupport.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.Dialogs.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.Markup.Xaml.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.Markup.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.Metal.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.MicroCom.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.OpenGL.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.Vulkan.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.Controls.ColorPicker.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.Desktop.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.Diagnostics.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.Fonts.Inter.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.FreeDesktop.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.Native.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.Remote.Protocol.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.Skia.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.Themes.Fluent.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.Themes.Simple.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.Win32.Automation.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.Win32.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Avalonia.X11.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\BruTile.XmlSerializers.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\BruTile.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\CommunityToolkit.Mvvm.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\ExCSS.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\HarfBuzzSharp.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Mapsui.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Mapsui.UI.Avalonia.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Mapsui.Nts.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Mapsui.Rendering.Skia.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Mapsui.Tiling.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\MicroCom.Runtime.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\NetTopologySuite.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\NetTopologySuite.Features.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\NetTopologySuite.IO.GeoJSON4STJ.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\ShimSkiaSharp.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\SkiaSharp.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\SkiaSharp.HarfBuzz.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Svg.Custom.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Svg.Model.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Svg.Skia.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Tmds.DBus.Protocol.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\Topten.RichTextKit.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\win-arm64\native\av_libglesv2.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\win-x64\native\av_libglesv2.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\win-x86\native\av_libglesv2.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\osx\native\libAvaloniaNative.dylib
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\linux-loongarch64\native\libHarfBuzzSharp.so
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\linux-musl-arm\native\libHarfBuzzSharp.so
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\linux-musl-arm64\native\libHarfBuzzSharp.so
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\linux-musl-loongarch64\native\libHarfBuzzSharp.so
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\linux-musl-riscv64\native\libHarfBuzzSharp.so
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\linux-riscv64\native\libHarfBuzzSharp.so
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\linux-x86\native\libHarfBuzzSharp.so
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\osx\native\libHarfBuzzSharp.dylib
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\linux-arm\native\libSkiaSharp.so
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\linux-arm64\native\libSkiaSharp.so
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\linux-loongarch64\native\libSkiaSharp.so
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\linux-musl-arm\native\libSkiaSharp.so
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\linux-musl-arm64\native\libSkiaSharp.so
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\linux-musl-loongarch64\native\libSkiaSharp.so
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\linux-musl-riscv64\native\libSkiaSharp.so
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\linux-riscv64\native\libSkiaSharp.so
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\linux-x64\native\libSkiaSharp.so
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\linux-x86\native\libSkiaSharp.so
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\osx\native\libSkiaSharp.dylib
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\win-arm64\native\libSkiaSharp.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\win-x64\native\libSkiaSharp.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\bin\Debug\net10.0\runtimes\win-x86\native\libSkiaSharp.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\obj\Debug\net10.0\Flight Tracker System.csproj.AssemblyReference.cache
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\obj\Debug\net10.0\Avalonia\Resources.Inputs.cache
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\obj\Debug\net10.0\Avalonia\resources
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\obj\Debug\net10.0\Flight Tracker System.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\obj\Debug\net10.0\Flight Tracker System.AssemblyInfoInputs.cache
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\obj\Debug\net10.0\Flight Tracker System.AssemblyInfo.cs
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\obj\Debug\net10.0\Flight Tracker System.csproj.CoreCompileInputs.cache
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\obj\Debug\net10.0\Flight Tracker System.sourcelink.json
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\obj\Debug\net10.0\Flight T.E093FD03.Up2Date
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\obj\Debug\net10.0\Flight Tracker System.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\obj\Debug\net10.0\refint\Flight Tracker System.dll
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\obj\Debug\net10.0\Flight Tracker System.pdb
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\obj\Debug\net10.0\Flight Tracker System.genruntimeconfig.cache
-C:\Users\asent\Documents\Git\test\Flight-Tracker-System\Flight Tracker System\obj\Debug\net10.0\ref\Flight Tracker System.dll
