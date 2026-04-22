@@ -4,9 +4,6 @@
              xmlns:vm="using:Flight_Tracker_System.ViewModels"
              x:Class="Flight_Tracker_System.Views.Analytics"
              x:DataType="vm:AnalyticsViewModel">
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:lvc="using:LiveChartsCore.SkiaSharpView.Avalonia"
-             x:Class="Flight_Tracker_System.Views.Analytics">
     <ScrollViewer>
         <StackPanel Spacing="30" Margin="20">
             <!-- Top Airlines -->
