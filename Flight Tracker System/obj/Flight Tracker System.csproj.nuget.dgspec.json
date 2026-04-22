@@ -1,26 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/Flight Tracker System.csproj": {}
+    "C:\\Users\\ednag\\Documents\\GitHub\\Flight-Tracker-System\\Flight Tracker System\\Flight Tracker System.csproj": {}
   },
   "projects": {
-    "/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/Flight Tracker System.csproj": {
+    "C:\\Users\\ednag\\Documents\\GitHub\\Flight-Tracker-System\\Flight Tracker System\\Flight Tracker System.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/Flight Tracker System.csproj",
+        "projectUniqueName": "C:\\Users\\ednag\\Documents\\GitHub\\Flight-Tracker-System\\Flight Tracker System\\Flight Tracker System.csproj",
         "projectName": "Flight Tracker System",
-        "projectPath": "/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/Flight Tracker System.csproj",
-        "packagesPath": "/home/danielmorgsilva/.nuget/packages/",
-        "outputPath": "/home/danielmorgsilva/Documents/SDU/2ndSemester/AOOP/Homework/Flight Tracker System/Flight Tracker System/obj/",
+        "projectPath": "C:\\Users\\ednag\\Documents\\GitHub\\Flight-Tracker-System\\Flight Tracker System\\Flight Tracker System.csproj",
+        "packagesPath": "C:\\Users\\ednag\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ednag\\Documents\\GitHub\\Flight-Tracker-System\\Flight Tracker System\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/danielmorgsilva/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ednag\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "/usr/lib64/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -94,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib64/dotnet/sdk/10.0.104/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",

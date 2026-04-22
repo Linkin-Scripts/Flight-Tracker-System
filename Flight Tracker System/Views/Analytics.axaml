@@ -1,13 +1,33 @@
 <UserControl xmlns="https://github.com/avaloniaui"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:lvc="using:LiveChartsCore.SkiaSharpView.Avalonia"
-        xmlns:viewModels="clr-namespace:Flight_Tracker_System.ViewModels"
-        mc:Ignorable="d" d:DesignWidth="1000" d:DesignHeight="700"
-        x:Class="Flight_Tracker_System.Views.Analytics"
-        x:CompileBindings="False">
-
-
-
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:lvc="using:LiveChartsCore.SkiaSharpView.Avalonia"
+             x:Class="Flight_Tracker_System.Views.Analytics">
+    <ScrollViewer>
+        <StackPanel Spacing="30" Margin="20">
+            <!-- Top Airlines -->
+            <StackPanel>
+                <TextBlock Text="Top Airlines by Traffic"
+                           FontSize="20"
+                           FontWeight="Bold"/>
+                <lvc:CartesianChart
+                    Series="{Binding AirlineSeries}" />
+            </StackPanel>
+            <!-- Busiest Routes -->
+            <StackPanel>
+                <TextBlock Text="Busiest Routes"
+                           FontSize="20"
+                           FontWeight="Bold"/>
+                <lvc:CartesianChart
+                    Series="{Binding RouteSeries}" />
+            </StackPanel>
+            <!-- Flights per Day -->
+            <StackPanel>
+                <TextBlock Text="Flights per Day"
+                           FontSize="20"
+                           FontWeight="Bold"/>
+                <lvc:CartesianChart
+                    Series="{Binding FlightsPerDaySeries}" />
+            </StackPanel>
+        </StackPanel>
+    </ScrollViewer>
 </UserControl>
